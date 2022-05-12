@@ -7,3 +7,8 @@ before_install:
 
 script:
   - docker run -e CI=true robertiacov/client npm test -- --coverage
+
+after_sucess:
+  - docker build -t robertiacov/client .
+  - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_ID" --password-stdin
+  - docker push robertiacov/client
