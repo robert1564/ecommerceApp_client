@@ -36,6 +36,7 @@ Front-End:
   - All card payments will go directly to the Stripe account
     where the admin will be able to view the orders made
 
-### Documentation in progress: [Aplicatie Ecommerce.pdf](https://github.com/robert1564/ecommerceApp_client/files/8926003/Aplicatie.Ecommerce.pdf)
+### Documentation in progress: 
+[Aplicatie Ecommerce.pdf](https://github.com/robert1564/ecommerceApp_client/files/8926003/Aplicatie.Ecommerce.pdf)
 
   
